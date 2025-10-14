@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Mapa interactivo - The Four Corners</title>
+  <link rel="stylesheet" href="map.css">
+
+</head>
+<body>
+  <div class="wrap">
+    <h1>BETA Fanmade interactive map</h1>
+      <div style="text-align:center;margin:8px 0 12px 0">
+        <button id="rotateBtn" title="Rotate map 90° clockwise" style="padding:6px 10px;border-radius:6px;">Rotate 90° →</button>
+      </div>
+    <p class="note"> <strong>Beta version</strong>, the entries are unpolished and in some cases need credits for theories both from reddit and the wiki. Map is from <a href="https://worldbuildersmarket.com/products/anniversary-edition-four-corners-of-civilization-map" target="_blank" rel="noopener">Worldbuilders</a>. 
+      <br>
+      If you want to compare all versions of official maps,  check my other project:<a href="https://krisarias.github.io/-The-Four-Corners-of-Civilization-Map-Comparator/" target="_blank" rel="noopener">
+      Map Comparator </a>
+    </p>
+
+<div class="image-wrap">
+      <img id="mapImg" class="responsive" src="worldbuilders.png" alt="Four Corners of Civilization - Worldbuilders" usemap="#image-map">
+    </div>
+
+    <map name="image-map">
+        <area target="" alt="Haeth" title="Haeth" href="#" coords="278,440,203,405" shape="rect"> data-rotated-coords=""
+        <area target="" alt="Ademre" title="Ademre" href="#" coords="329,507,183,471" shape="rect"> data-rotated-coords=""
+  <area target="" alt="Modeg" title="Modeg" href="#" coords="487,579,644,617" data-rotated-coords="1434,476,1481,650" shape="rect"> data-rotated-coords=""
+        <area target="" alt="Khershaen" title="Khershaen" href="#" coords="461,633,604,663" shape="rect"> data-rotated-coords=""
+        <area target="" alt="The Eld" title="The Eld" href="#" coords="713,726,817,788" shape="rect"> data-rotated-coords=""
+        <area target="" alt="Vintas" title="Vintas" href="#" coords="878,390,1027,435" shape="rect"> data-rotated-coords=""
+        <area target="" alt="The Free City of Tinue" title="The Free City of Tinue" href="#" coords="649,419,770,465" shape="rect"> data-rotated-coords=""
+        <area target="" alt="Severen" title="Severen" href="#" coords="856,493,776,466" shape="rect"> data-rotated-coords=""
+        <area target="" alt="Renere" title="Renere" href="#" coords="900,478,987,513" shape="rect"> data-rotated-coords=""
+        <area target="" alt="The Small Kingdoms" title="The Small Kingdoms" href="#" coords="918,765,1099,822" shape="rect"> data-rotated-coords=""
+        <area target="" alt="Junpui" title="Junpui" href="#" coords="1062,924,1165,952" shape="rect"> data-rotated-coords=""
+        <area target="" alt="Atur" title="Atur" href="#" coords="641,937,698,969" shape="rect"> data-rotated-coords=""
+        <area target="" alt="The Aturan Empire" title="The Aturan Empire" href="#" coords="521,985,636,1063" shape="rect"> data-rotated-coords=""
+        <area target="" alt="Anilin" title="Anilin" href="#" coords="700,1209,778,1236" shape="rect"> data-rotated-coords=""
+        <area target="" alt="Fordell" title="Fordell" href="#" coords="866,1508,780,1472" shape="rect"> data-rotated-coords=""
+        <area target="" alt="Imre" title="Imre" href="#" coords="784,1376,842,1396" shape="rect"> data-rotated-coords=""
+        <area target="" alt="Tarbean" title="Tarbean" href="#" coords="859,1375,950,1416" shape="rect"> data-rotated-coords=""
+        <area target="" alt="The University" title="The University" href="#" coords="766,1411,874,1434" shape="rect"> data-rotated-coords=""
+        <area target="" alt="Yll" title="Yll" href="#" coords="1200,1477,1269,1512" shape="rect"> data-rotated-coords=""
+        <area target="" alt="Commonwealth" title="Commonwealth" href="#" coords="745,1557,1093,1585" shape="rect"> data-rotated-coords=""
+        <area target="" alt="Ceald" title="Ceald" href="#" coords="380,1640,512,1681" shape="rect"> data-rotated-coords=""
+        <area target="" alt="Calderero" title="Calderero" href="#" coords="1218,272,91" shape="circle">
+        <area target="" alt="Goverment Seat" title="Goverment Seat" href="#" coords="1331,465,1146,440" shape="rect"> data-rotated-coords=""
+        <area target="" alt="Farrowton Sisters" title="Farrowton Sisters" href="#" coords="1340,737,1241,598" shape="rect"> data-rotated-coords=""
+        <area target="" alt="Vesumbi Islands" title="Vesumbi Islands" href="#" coords="842,1895,946,1949" shape="rect"> data-rotated-coords=""
+        <area target="" alt="Ralien" title="Ralien" href="#" coords="496,1528,579,1573" shape="rect"> data-rotated-coords=""
+        <area target="" alt="Great Stone Road" title="Great Stone Road" href="" coords="771,1126,707,921" shape="rect"> data-rotated-coords=""
+        <area target="" alt="North" title="North" href="" coords="1054,254,1121,304" shape="rect"> data-rotated-coords=""
+        <area target="" alt="Sanshole" title="Sanshole" href="#" coords="739,1602,847,1625" shape="rect"> data-rotated-coords=""
+        <area target="" alt="Anilin" title="Anilin" href="#" coords="699,1214,780,1237" shape="rect"> data-rotated-coords=""
+        <area target="" alt="Dalonir" title="Dalonir" href="#" coords="541,1438,636,1408" shape="rect"> data-rotated-coords=""
+        <area target="" alt="Centhe" title="Centhe" href="#" coords="1110,1132,1290,1185" shape="rect"> data-rotated-coords=""
+        <area target="" alt="Omerdal" title="Omerdal" href="#" coords="932,1033,1025,1058" shape="rect"> data-rotated-coords=""
+        <area target="" alt="Northern Enlas" title="Northern Enlas" href="#" coords="462,775,569,833" shape="rect"> data-rotated-coords=""
+        <area target="" alt="Stormwal" title="Stormwal" href="#" coords="453,340,613,294" shape="rect"> data-rotated-coords=""
+        <area target="" alt="Hallowfell" title="Hallowfell" href="#" coords="971,1762,904,1724" shape="rect"> data-rotated-coords=""
+        <area target="" alt="Andallen" title="Andallen" href="" coords="976,379,793,355" shape="rect"> data-rotated-coords=""
+        <area target="" alt="The Six Sisters" title="The Six Sisters" href="" coords="943,1205,882,1129" shape="rect"> data-rotated-coords=""
+        <area target="" alt="Keretes" title="Keretes" href="" coords="499,1310,427,1276" shape="rect"> data-rotated-coords=""
+        <area target="" alt="Tahlenwald" title="Tahlenwald" href="" coords="622,246,554,193" shape="rect"> data-rotated-coords=""
+        <area target="" alt="Haeth" title="Haeth" href="" coords="207,406,273,426" shape="rect"> data-rotated-coords=""
+        <area target="" alt="Feant" title="Feant" href="" coords="225,433,263,454" shape="rect"> data-rotated-coords=""  
+  </map>
+
+    <footer>
+      <p>Note: The areas use coordinates based on the original image size. The page scales the coordinates when the browser width changes.</p>
+    </footer>
+    <!-- Modal for region info -->
+    <div id="regionModal" class="region-modal" aria-hidden="true">
+      <div class="region-modal-backdrop" id="modalBackdrop"></div>
+      <div class="region-modal-content" role="dialog" aria-modal="true" aria-labelledby="regionModalTitle">
+  <button id="modalClose" class="modal-close" aria-label="Cerrar">
+    <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+      <line x1="4" y1="4" x2="20" y2="20" stroke="#3b2b1f" stroke-width="2.2" stroke-linecap="round" />
+      <line x1="20" y1="4" x2="4" y2="20" stroke="#3b2b1f" stroke-width="2.2" stroke-linecap="round" />
+    </svg>
+  </button>
+        <h3 id="regionModalTitle"></h3>
+        <div id="regionModalBody"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="regionInfo.js" defer></script>
+  <script src="map.js" defer></script>
+</body>
+</html>
+

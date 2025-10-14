@@ -1,0 +1,382 @@
+body {
+    font-family: 'EB Garamond', serif; /* classic, elegant serif */
+    background: #e8e3d7; /* soft parchment tone */
+    color: #2d2920; /* dark ink-like color */
+    margin: 0;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.wrap {
+    max-width: 1200px;
+    width: 100%;
+}
+
+
+
+
+/* ===================== Hyperlinks ===================== */
+a {
+    color: #a85a5a; /* soft, muted red */
+    text-decoration: none;
+    font-family: 'EB Garamond', serif;
+    transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+
+/* Hover / focus effect */
+a:hover,
+a:focus {
+    color: #c85a5a;
+    cursor: pointer;
+    text-decoration: underline wavy #a85a5a;
+
+}
+
+a.underline {
+    text-decoration: underline wavy #a85a5a;
+}
+
+/* ===================== Container Box ===================== */
+.container {
+  background: #f1ede3; /* warm parchment tone */
+  border: 1px solid rgba(200, 170, 120, 0.7);
+  padding: 14px 16px;
+  margin-top: 16px;
+  border-radius: 5px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12), inset 0 1px 0 rgba(255,255,255,0.15);
+  font-family: "Georgia", serif; 
+}
+
+.container h3 {
+  margin: 0 0 10px 0;
+  color: #5b3d1f; /* dark ink color */
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2); /* subtle embossed look */
+}
+
+.container .small {
+  margin: 0 0 10px 0;
+  color: #5a4930; /* darker, more legible ink color */
+  font-size: 15px; /* slightly larger for readability */
+  font-style: italic; /* keeps handwritten/magical feel */
+  letter-spacing: 0.5px; 
+  line-height: 1.4; /* more breathing room */
+  text-shadow: 0 1px 0 rgba(255, 245, 220, 0.2); /* subtle embossed effect */
+  opacity: 0.95; /* less faded for easier reading */
+}
+
+.container textarea {
+  width: 100%;
+  min-height: 88px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid rgba(180, 150, 100, 0.7);
+  font-size: 14px;
+  font-family: "Georgia", serif;
+  background: rgba(255, 250, 230, 0.95);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.08);
+  resize: vertical;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.container textarea:focus {
+  border-color: rgba(150, 100, 50, 0.9);
+  box-shadow: 0 0 6px rgba(200, 150, 80, 0.5) inset;
+  outline: none;
+}
+
+/* ===================== Grid Layout ===================== */
+.container-grid {
+  display: grid;
+  gap: 10px 14px;
+}
+
+.grid-row {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  align-items: start;
+  column-gap: 14px;
+  padding: 8px 0;
+  border-bottom: 1px dashed rgba(150, 120, 80, 0.3); /* medieval ledger feel */
+}
+
+.grid-left {
+  font-weight: 700;
+  color: #3b2b1f;
+  text-align: left;
+  padding-right: 6px;
+  font-family: "Georgia", serif;
+}
+
+.grid-right {
+  color: #2b2622;
+  line-height: 1.4;
+  font-family: "Georgia", serif;
+}
+
+/* responsive */
+@media (max-width: 520px) {
+  .grid-row {
+    grid-template-columns: 80px 1fr;
+  }
+}
+/* ===================== Header ===================== */
+
+h1 {
+  font-family: 'Cinzel', serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #3b2b1f;
+  text-align: center;
+  letter-spacing: 0.6px;
+  text-shadow: 0 1px 0 #f7f5ee;
+}
+
+/* decorative glyph above */
+h1::before {
+  content: "※";
+  display: block;
+  font-size: 16px;
+  color: #b08a4b;
+  margin-bottom: 6px;
+  text-shadow: 0 1px 0 #fff;
+}
+
+/* underline flourish */
+h1::after {
+  content: "";
+  display: block;
+  width: 60%;
+  height: 1px;
+  margin: 8px auto 0;
+  background: linear-gradient(to right, transparent, #b08a4b, transparent);
+}
+
+@media (max-width: 520px) {
+  h1 { font-size: 22px; padding: 4px 12px 8px; }
+  h1::after { width: 70%; }
+}
+
+p.note {
+    margin: 0 0 16px 0;
+    text-align: center;
+    font-family: 'EB Garamond', serif; 
+    color: #3b3224; 
+    font-size: 15px;
+    line-height: 1.5;
+    text-shadow: 0 1px 0 rgba(255, 255, 240, 0.2); /* subtle embossed ink effect */
+    font-style: italic; /* optional, adds medieval manuscript feel */
+}
+
+.image-wrap {
+    padding: 12px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+img.responsive {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+footer {
+    margin-top: 18px;
+    font-size: 13px;
+    color: #6b5d47;
+}
+
+/* ===================== Overlay ===================== */
+.area-overlay {
+  position: absolute;
+  pointer-events: auto; /* allow clicks */
+  background: rgba(60, 30, 10, 0.15); 
+  border-radius: 6px;
+  border: 1px solid rgba(90, 50, 20, 0.85); 
+  box-shadow: 0 0 12px rgba(200, 160, 80, 0.4), 0 0 2px rgba(0,0,0,0.5) inset; /* magical glow + ink depth */
+  transition: transform 0.2s ease, opacity 0.3s ease, box-shadow 0.3s ease;
+  z-index: 9990; /* below modal */
+  cursor: pointer;
+  filter: drop-shadow(0 0 4px rgba(0,0,0,0.4)); /* subtle rough shadow */
+}
+
+/* softer, more mystical variant */
+.area-overlay.soft {
+  filter: drop-shadow(0 0 6px rgba(255, 200, 50, 0.4)); /* golden glow effect */
+}
+
+/* flash animation to simulate magical pulse */
+.area-overlay.flash {
+  animation: overlayFlash 1s ease forwards;
+}
+
+@keyframes overlayFlash {
+  0% {
+    transform: scale(0.95) rotate(-1deg);
+    opacity: 0;
+    box-shadow: 0 0 6px rgba(255, 200, 100, 0.3), inset 0 0 2px rgba(0,0,0,0.5);
+  }
+  50% {
+    transform: scale(1.05) rotate(1deg);
+    opacity: 1;
+    box-shadow: 0 0 18px rgba(255, 180, 50, 0.6), inset 0 0 2px rgba(0,0,0,0.5);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+    opacity: 0.95;
+    box-shadow: 0 0 8px rgba(255, 160, 50, 0.4), inset 0 0 2px rgba(0,0,0,0.4);
+  }
+}
+
+.area-overlay:hover {
+  transform: scale(1.05) rotate(0.5deg);
+  box-shadow: 0 0 24px rgba(255, 200, 60, 0.7), inset 0 0 4px rgba(0,0,0,0.6);
+}
+
+.region-modal { display:none; }
+.region-modal-backdrop { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.22); z-index:9998; }
+
+/* parchment panel */
+.region-modal-content {
+  display:none;
+  position:fixed;
+  z-index:9999;
+  padding:18px 20px;
+  border-radius:8px;
+  max-width:420px;
+  pointer-events:auto;
+  /* layered background: warm paper + subtle fiber texture */
+  background:
+    linear-gradient(180deg, #fff7e6 0%, #f7e6c7 60%, #f1dec1 100%),
+    repeating-linear-gradient(135deg, rgba(0,0,0,0.02) 0 1px, transparent 1px 8px);
+  /* reduced border for a cleaner parchment edge */
+  border:2px solid rgba(75,56,38,0.28);
+  box-shadow:
+    0 18px 44px rgba(10,7,5,0.28), /* outer drop */
+    inset 0 6px 12px rgba(255,255,255,0.12), /* highlight */
+    inset 0 -6px 14px rgba(0,0,0,0.04); /* inner depth */
+  overflow:hidden;
+}
+
+.region-modal-content::before,
+.region-modal-content::after { display:none; }
+
+.region-modal-content h3 {
+  margin:0 0 10px 0;
+  font-size:18px;
+  color:#4b3826;
+  letter-spacing:0.2px;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.45);
+}
+
+.region-modal-content #regionModalBody {
+  max-height:260px;
+  overflow:auto;
+  color:#2b2419;
+  line-height:1.55;
+  font-size:14px;
+  padding-right:8px; /* give room for a custom scrollbar */
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #b6864a rgba(0,0,0,0.04);
+}
+/* WebKit-based browsers (Chrome, Edge, Safari) */
+.region-modal-content #regionModalBody::-webkit-scrollbar{ width:12px; height:12px }
+.region-modal-content #regionModalBody::-webkit-scrollbar-track{
+  background: linear-gradient(180deg, rgba(0,0,0,0.02), rgba(0,0,0,0.01));
+  border-radius:10px; margin:6px 0;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.04);
+}
+.region-modal-content #regionModalBody::-webkit-scrollbar-thumb{
+  background: linear-gradient(180deg,#c9a66a,#a8733f);
+  border-radius:10px; border:3px solid rgba(0,0,0,0.03);
+  box-shadow: inset 0 2px 6px rgba(0,0,0,0.14);
+}
+.region-modal-content #regionModalBody::-webkit-scrollbar-thumb:hover{
+  background: linear-gradient(180deg,#d8b57f,#b07a45);
+}
+/* add a subtle focus ring when keyboard focusing the scrollable content */
+.region-modal-content #regionModalBody:focus{
+  outline: 3px solid rgba(184,124,58,0.12);
+  outline-offset:2px;
+}
+
+/* Improved typography for modal content */
+.region-modal-content{
+  font-family: 'EB Garamond', Georgia, serif;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+  font-size:15px;
+  color: #2b2419;
+}
+.region-modal-content p{ margin:0 0 10px 0; text-align:justify; text-justify:inter-word; }
+.region-modal-content i, .region-modal-content em{
+  display:block;
+  background: rgba(139,111,74,0.04);
+  padding:8px 10px;
+  margin: -8px 0 10px 0;
+  border-left:4px solid rgba(139,111,74,0.12);
+  color:#4a3826;
+  font-style:italic;
+}
+.region-modal-content strong{ color:#3b2b1f; font-weight:700; }
+.region-modal-content blockquote{ margin:8px 0 12px 0; padding:10px 12px; background:rgba(0,0,0,0.03); border-left:4px solid #8b6f4a; color:#332a20; }
+.region-modal-content ul, .region-modal-content ol{ margin:8px 0 12px 24px; }
+.region-modal-content .meta{ display:block; font-size:13px; color:#6b5d47; margin-bottom:8px }
+/* ensure scrollbar has breathing room */
+.region-modal-content #regionModalBody{ padding-right:6px }
+
+/* Styling for region info content inserted into the modal. */
+.region-info{
+  font-family: 'EB Garamond', Georgia, serif;
+  color: #2b2419;
+  line-height:1.6;
+  font-size:15px;
+  padding:6px 2px 2px 2px;
+}
+.region-info p{ margin:0 0 12px 0; text-align:justify; text-justify:inter-word; }
+.region-info i, .region-info em{ display:block; background: rgba(139,111,74,0.03); padding:8px 10px; margin:-6px 0 10px 0; border-left:4px solid rgba(139,111,74,0.10); color:#4a3826; font-style:italic; }
+.region-info strong{ color:#3b2b1f; font-weight:700 }
+.region-info blockquote{ margin:8px 0 12px 0; padding:10px 12px; background:rgba(0,0,0,0.02); border-left:4px solid #8b6f4a; color:#332a20 }
+.region-info ul, .region-info ol{ margin:8px 0 12px 24px }
+.region-info .meta{ display:block; font-size:13px; color:#6b5d47; margin-bottom:8px }
+.region-info a{ color:#6b4a20; text-decoration:underline; }
+
+
+/* flatter parchment-close button */
+.modal-close {
+  position:absolute;
+  right:12px;
+  top:10px;
+  background: transparent;
+  color: #3b2b1f;
+  border:0;
+  width:28px;
+  height:28px;
+  border-radius:4px;
+  font-size:18px;
+  font-weight:700;
+  cursor:pointer;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  box-shadow: none;
+  transition: background .12s ease, transform .08s ease;
+  z-index: 10020; /* ensure button sits above decorative pseudo-elements */
+}
+.modal-close:hover{ background: rgba(75,56,38,0.06); transform:translateY(-1px) scale(1.02) }
+
+/* small responsive tweak so very narrow screens still see content comfortably */
+@media (max-width:420px){
+  .region-modal-content{ left:10px; right:10px; max-width:calc(100% - 20px); border-width:4px; }
+}
+/* Highlight overlay for clicked areas (persistent, multi-highlight) */
+.map-highlight{ position:absolute; pointer-events:none; border:3px solid rgba(255,200,80,0.98); box-shadow:0 0 30px rgba(255,200,80,0.9); border-radius:8px; transform-origin:center; z-index:9997; opacity:1; transition: opacity 0.6s ease, transform 0.3s ease; }
+/* small pulse while visible */
+.map-highlight.pulse{ animation:highlightPulse 1.6s ease-out infinite; }
+@keyframes highlightPulse{ 0%{ transform:scale(0.995) } 50%{ transform:scale(1.02) } 100%{ transform:scale(0.995) } }
