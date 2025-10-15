@@ -1,26 +1,47 @@
 // regionInfo is out of map.js to make editing easier.
 window.regionInfo = {
     // Major Regions
-    'Modeg': `<p><b>Language:</b> Modegan 
-        <i>"Magic works differently there"--Pat</i>     
-        <i>"there is no royalty older than the Modegan royal line"</i>
-        We know nothing about their currency aside from the word “strehlaums”. 
-        There is no Modegan campfire in Sceop’s story, and the only stereotype we get from there is that they’re quite promiscuous. 
-        <br>
-        We dont know much about Modeg, but weve gotten glimpses of their religion. <b>Fela and Sovoy</b> are both Modegan. Fela says "tiny gods" and Sovoy (and Bredon) says "gods all around us." IRL there was a playing card that Pat shared of the Modegan <b>"hollow gods"</b> which featured a tree with eyes. Also in the prologue of <b>*Laniel Young-Again </b> that he shared there are "tall gods" and describes the god as a tree with branches reaching to they sky. <br>Note: Tall is a homophone of "Tahl" (the nomadic people) and its been theorized that those meanings have been mixed in various stories.
-        <br> From other cards we know "Cimbrel House" which is where Cimbrelines work - the official name for the Modegan "ladies" who earn their stripes. They literally have an education that allows them to earn up to ten stripes.
-        <br> From the Tak Companion Book:
-        <i>
-        there are several accounts in which a player’s piece finds itself off the board, on the floor, and most famously in the cleavage of a high ranking Modegan Cimbreline. (page 34)
-        </i>
-        <i> Versions of Kaen are still played in Modeg and throughout the small kingdoms today.</i>
+    'Modeg': `<p>
+  <b>Language:</b> Modegan<br>
+  <i>"Magic works differently there." — Pat</i>
+  <i>"There is no royalty older than the Modegan royal line."</i>
 
-        </p>`,
-        
+  Pat’s companion novel "The Tale of Laniel Young-Again"(working title) is set in Modeg. This explains why we have both so much and so little lore about it.<br><br>
 
+  Modeg is mysterious and culturally distinct. There’s no Modegan campfire in Sceop’s story, and the only stereotype mentioned is that its people are rather promiscuous.<br> We glimpse their <b>religion</b> through Modegan characters like <b>Fela</b> and <b>Sovoy</b>. Fela speaks of “tiny gods,” while Sovoy (and Bredon) says “gods all around us.” 
+  Pat once talked about the official Modegan set of Pairs cards showing the <b>“Hollow Gods”</b>: a tree covered in eyes. In the prologue of Laniel Young-Again, the “tall gods” are described as:  
+   <i>
+  The first, was their tall god. He was strong and tall and white and wise. (...) Their god was strong and wise, his branches reaching high into the sky —tToLYA prologue
+   </i>
+  Note: “Tall” is a homophone of “Tahl,” the nomadic people, suggesting that the two meanings may have merged in certain stories.<br>
+  From other cards we learn of Cimbrel Houses, where <b>Cimbrelines</b> (Modegan "ladies") train and work to earn their stripes. Their education allows them to advance through up to ten ranks.
+  <br> Other mentions of Modeg in interviews:
+  <i>
+  “The Commonwealth is a little reminiscent of Renaissance Europe, while Modeg has hardly any cultural connection with it. <b>There it's almost like the Dark Ages: everyone is bound to their land, nobody travels, and dark, impassable forests dominate the landscape.</b> The very act of Laniel leaving her homeland is an effort, because nobody in this society travels.”  
+  <a href="https://imgur.com/a/rothfuss-interview-2015-ueCAlRK" target="_blank" rel="noopener">—Pat, 2015</a>
+  </i>
+
+  <b>Government:</b>
+  <i>
+  “This is the High King of Modeg, arguably the most powerful person in the world. And this is one of the High Lords of Modeg.” — Pat  
+  <a href="https://kingkiller.fandom.com/wiki/Pairs?file=Pairs_Modegan_The_High_King.jpg" target="_blank" rel="noopener">Images in Wiki</a>
+  </i>
+
+  <b>Currency:</b><br>
+  Little is known of Modegan currency beyond the term <b>“strehlaums.”</b> and this quote:
+  <i>
+  “Modegan currency is going to be way harder because it's <b>not a capitalist society</b>—and more importantly, <b>not a commercial industrial society</b>. But I have developed some of that currency conceptually. I even have prototypes of it around somewhere in a box.” — Pat
+  </i>
+
+  <b>Mentions in the Tak Companion Book:</b>
+  <i>“There are several accounts in which a player’s piece finds itself off the board, on the floor, and most famously in the cleavage of a high-ranking Modegan Cimbreline.” —Tak Companion Book, p.34</i>
+  <i>Versions of <b>Kaen</b> are still played in Modeg and throughout the Small Kingdoms today.</i>
+
+
+        </p>`,            
     'Ceald': `<p>  
         <b>Language:</b> Siaru <br>
-        Its history stretches back two thousand years, to when Heldred united the previously nomadic peoples of the Shalda mountains. 
+        Sometimes referred to as "Sheald". It was not conquest by the Aturan Empire. Its history stretches back two thousand years, to when Heldred united the previously nomadic peoples of the Shalda mountains. 
         The Cealdim were the first to establish a standardized currency, and to the present day Cealdish currency can be used throughout the Four Corners. 
         <i>"...most moneylenders are Cealdish</i>
         Cealdim is composed of two groups, the Cealdim and Cealdar. 
@@ -77,9 +98,10 @@ window.regionInfo = {
             Kvothe is supposed to visit Renere in the 3rd book.
             </p>`,
     'Yll': `<p>
-            <b>Language:</b> Yllish (before Great Aturan Empire) <br>
-            Yll seems to be a <b>sheep-farming economy</b>, and not regarded very highly by the 4 corners, possibly as consequence of it´s colonization by the Great Aturan Empire. 
-            This is interesting considering it has a rich culture, its own calendar and earliest known writing system, which are usually considered signs of "civilization".
+            <b>Language:</b> Yllish (in decline?) <br>
+            Yll seems to be a <b>sheep-farming economy</b>, and not regarded very highly by the 4 corners.
+            This is interesting considering it has a rich culture, its own calendar and earliest known "writing" system, which are usually considered signs of "civilization".
+            It was not conquest by the Aturan Empire.
             <br>
             Denna mentions that Yll has a <b>milder climate</b> (it's the first winter where her lungs have not acted up).
             The Yllish <b>knot language</b> appears (or could) have magical properties that Denna uses in the form of braids.
@@ -88,6 +110,13 @@ window.regionInfo = {
             Some theories associate Yll with names like Illien (the famous Edena composer) or Murilla (the old city).
             <i>"I had heard that Yllish tribes use the sun to tell time, and as such, have no true concept of punctuality."</i>
             <i>"For tomorrow, you can prepare a report on Yll’s lunar calendar compared to the more accurate, civilized Aturan calendar that you should be familiar with by now."</i>
+           <i>
+           Yll is like the size of a postage stamp. It’s effectively… there were three place that Aturan Empire did not kick the shit out of, and it is all of the Sheald, (...), and there is a tiny little piece of an island, where the people were way to cussed to let themselves be taken over, 
+           and those were the Yllish people. -
+           <a href="https://ghostarchive.org/archive/BPoUC" target="_blank" rel="noopener"> -Pat 01:54:15</a>
+            </i>
+
+           
             <i>“The Yllish people never developed a written language,” she said.
             “Not true,” Elodin said. “They used a system of woven knots.” He made a complex motion with his hands, as if braiding something.<br>
             “And they were doing it long before we started scratching pictograms on the skins of sheep.” - WMF, Chapter 15</i>
@@ -123,8 +152,14 @@ window.regionInfo = {
         Not a huge issue in smaller places (baronies or towns) because they praise their own coins with civic pride. But the further you get from the source of the coin, the less people trust them. “…it’s for that reason that most of the buisness dealings at the university (and all over the world) happen in good, solid, reliable Cealdish coin”. (719).</i>
 
         <i>
-        (Tak Companion book page )</i>
+        In the commonwealth, their legal system is based loosely on England in the 1500-1700’s. In short, it’s a huge, tangled, unfair clusterfuck of a system. There are courts that enforce church law, and courts that enforce the Iron Law of Atur. Each court operates under its own authority, and of course their spheres of influence overlap… It’s a real mess, but it’s the only system that they have…. 
+        <a href="https://web.archive.org/web/20100729141939/https://concurringopinions.com/archives/2007/12/an_interview_wi.html">-Pat 2007</a>
+        </i>
+        <i>
+        The Commonwealth is a little reminiscent of Renaissance Europe
+        </i>
         </p>`,
+
     "The Small Kingdoms": 
         "<p> <i>“Only priests and fools” expect the roads in the Small Kingdoms to be safe.\"</i>It is likely many different kingdoms, since the boy with a gold screw in his belly button visits \"each of the small kingdoms\". Vashet spent four years as a captain and bodyguard to a \"poet king\" in the Small Kingdoms. Caudicus claimed that a large portion of the land which is now the Small Kingdoms was once ruled by the Lackless family. (Possibly north of Tinue) </p>",    // Major Cities
     'The Free City of Tinue': 
@@ -141,12 +176,14 @@ window.regionInfo = {
     'Anilin': `<p> 
         (<a href="https://www.reddit.com/r/KingkillerChronicle/comments/z1q9uz/anilin_part_1_what_do_they_do_in_anilin/">credit</a>) 
         <i>“You could come to Anilin with us,” she suggested. “They say the streets are paved with gold there."</i> Probably a industrial city, see the connection with the chemical compound "Aniline" (used for hairdyes and fuel that burns blue) and is in route for Kvothe when he describes: <i>"Eventually we came to another stream crossing the road. Not much more than a foot deep at the most. The water had a sharp, foul smell that let me know there was a tannery upstream, or a refinery (...) Solvents and acids. If not a refinery, then at least a mine."</i> Other mentions:<br><i>“The fire was blue last night?” She nodded. “Like a coal-gas flame. Like the lamps they have in Anil<strong>e</strong>n.”</i> <i>“What happened in Anilin, anyway?” A leaf floated down and landed in her hair. She brushed it away absentmindedly. “Nothing pleasant,” she said, avoiding my eyes. “But nothing unexpected either.”</i><i> “Like hell. Check it now, while he’s close. We’ve lost him twice already. I’m not having another cock-up like in Anilin.”</i> </p>`,
-    'Dalonir': `<p> At the beginning of ch.39 of The WMF Wilem says that Dalonir is Simmon´s father´s dutchy in the north of Aturan ... but here Dalonir appears to be Ceald. When asked Pat was unsure of the sitation.</p>`,
+    'Dalonir': `<p> At the beginning of ch.39 of The WMF Wilem says that Dalonir is Simmon´s father´s dutchy in the north of Aturan ... but here Dalonir appears to be Ceald. 
+            When asked Pat was unsure of the sitation. So where is the mistake? The book or the map? 
+            <br> In the Great Aturan Empire map of the 10 edition Dalonir is, in fact, part of the Aturan Empire; but this is long before Kvothe´s time.</p>`,
     'Junpui': `<p> <i> Over the course of my trip I was robbed, drowned, and left penniles on the streets of Junpui </i> Books in the archives record a story of an Amyr putting down a peasant uprising in Junpui. <br>In Junpui the punishment for forgery is being thrown into a fire.</p>`,
     "Ademre": `<p> 
         <b>Language:</b>Ademic and Adem sign language <br> 
         The foundation of the Adem culture is a belief system called the Lethani, which informs everything the Adem do. Ademre is well known for producing capable fighters known as Adem mercenaries or <strong>Cethan</strong> who wear bright red tight-fitting clothing. <br> Ademre is outside the 4 corners. 
-        They probably have their own studies in Naming, see Magwyn
+        They probably have their own studies in Naming, see Magwyn. Ademre was not conquest by the Aturan Empire.
         From the Tak Companion Book:
         <i> some of Tak’s earliest origins come from Ademre in the strategy game Locke (or Llean). As a result, while most Adem are aware of
         Tak, many see the added complexity as unnecessary, and consider it a “barbarian’s game.” (page 37)
@@ -162,7 +199,13 @@ window.regionInfo = {
         mistake turned it into a misleading name. 
         <i> "I put wrong things in maps because cartographers screw up. I put translation errors in maps because, like. But like no one will ever know. There's  a section in one of the maps. And it's called 'The Barrens'. And it's like, “Well, obviously this a desolate place.” No, it's because many many years ago there were a bunch of baronies that fought. Um. And then a cartographer was like, “Man! This is changing all the time; they’re always fighting. This is just... ‘where the barons are’.” And so now, it's like, “Oh, this idiot misspelled Barrens,” and NOW everyone’s like, “Well, I don’t wanna live in the barrens, and that's the name of the region.” And this is a little joke just for me. -Pat "
         </i> -Special thanks to reddit user LostInStories222 for this one</p>`,   
-    'The Eld': `<p> The forest in WMF with a door to the fae (Felurian chapters). It probably expands more towards Vintas than shown in this map <i>  </i> </p>`,
+    'The Eld': `<p> The forest in WMF with a door to the fae (Felurian chapters). It probably expands more towards Vintas than shown in this map
+        <i>
+        “There were three places the <b>Aturan Empire did not kick the shit out of</b>: all of the Sheald, a large part of Modeg—because there are mountains and the Eld, and the Eld is just a terrifying place where armies die.” 
+        <a href="https://ghostarchive.org/archive/BPoUC" target="_blank" rel="noopener"> -Pat 02:49:46</a> 
+        See my <a href="https://krisarias.github.io/-The-Four-Corners-of-Civilization-Map-Comparator/" target="_blank" rel="noopener"> map comparator</a> for more details.
+        </i>
+        </p>`,
     'The University': `<p> 
         <i>Kvothe—Anker’s Inn./ University. (Two miles west of Imre.)/ <b> Belenay-Barren </b>/ Central Commonwealth. [WMF 43 - Denna's letter]<i> </p>`,
     'Crosson': `<p> Aproximated location, 
@@ -193,17 +236,43 @@ window.regionInfo = {
         </p>`,
         //Before
     "Andallen": `<p> During the Great Arturan Empire it was named "Arrowdales". </p>`,
-    "The Six Sisters": `<p> During the Great Arturan Empire they were named "The Seven Saints".</p>`,
+    "The Six Sisters": `<p> During the Great Arturan Empire they were named "The Seven Saints".
+    <i>
+    "Is the church probably gonna be more likely to slap religious names on things, or an empire dominated by a church is gonna put it’s own names on things? Yeah
+    </i>
+    </p>`,
     "Keretes": `<p> During the Great Arturan Empire it was named "Ansmuthe". </p>`,
     // Special/Other
     'Temerant': `<p> In "The Slow Regard of Silent Things" we learn the name of the world is Temerant</p>`,
-    'Goverment Seat': `<p> This are the major cities: <strong>Tarbean, Renere, Ralien, and Khershaen,</strong> this are THE 4 corners. They are usually associated with: <br> •Commonwealth: understanding, art. Imre and the University.<br>•Ceald: wealth, trade, industry; famous for its financial power. <br>•Modeg: openness, wisdom, expressiveness; its king is described as wise, and the kingdom seems to value individuality.(and are seen as promiscuous) <br>•Vintas: tradition, nobility, social rigidity; possibly the cornerstone of the conservative structure.
+    'Goverment Seat': `<p> This are the major cities: <b>Tarbean, Renere, Ralien, and Khershaen,</b> this are THE 4 corners. They are usually associated with: <br> •Commonwealth: understanding, art. Imre and the University.<br>•Ceald: wealth, trade, industry; famous for its financial power. <br>•Modeg: openness, wisdom, expressiveness; its king is described as wise, and the kingdom seems to value individuality.(and are seen as promiscuous) <br>•Vintas: tradition, nobility, social rigidity; possibly the cornerstone of the conservative structure.
     <br>The Aturan Empire is in the center of the 4 corners and is associated with the Tehlu Church</p>`,
     'Farrowton Sisters': `<p>Cartographers who made the map in universe. According to Pat the person who made the 10 anniversary map: <i>“ hated the Atur Empire, which is why there are no details about the Atur side, and ignored Yll because who cared about the shepherds?" </i></p>`,
-    'Calderero': `<p> <i>“Tinkers are a sign of civilization.  Where the roads are safe, Tinkers travel freely, bringing welcome news and many necessary goods that are hard for to come by in small towns.” </i> All officials maps at the point of writing have included a Tinker on a corner. </p>`,
-    'Great Stone Road': `<p> It would be against the law to deface any part of the Great Stone Road/Old Stonebridge/Waystones. This is one of the things that a Ciridae could do with impunity. This crime was equivalent to strangling a pregnant woman or burning a church. </p>`,
+        'Calderero': `<p> <i>“Tinkers are a sign of civilization.  Where the roads are safe, Tinkers travel freely, bringing welcome news and many necessary goods that are hard for to come by in small towns.” </i>
+         All officials maps at the point of writing have included a Tinker on a corner. 
+         <i>
+         (Do tinkers make it into the Fae?) Well, tinkers go everywhere. -Pat 2021 on twitch, video no longer available.
+         </i>
+         </p>`,
+    'Great Stone Road': `<p> 
+        <i>
+         Stonebridge rose ahead of us: two hundred feet from end to end, with a high arch that peaked five stories above the river. It was part of the Great Stone Road, <b>straight as a nail, flat as a table, and older than God </b>
+        </i>
+        Notice how the name sounds similar to <b>The Graystone Road</b>.<br>
+        It would be against the law to deface any part of the Great Stone Road/Old Stonebridge/Waystones. This is one of the things that a Ciridae could do with impunity. 
+        This crime was equivalent to strangling a pregnant woman or burning a church. 
+        <i>
+        (Why does the Great Stone road curve or does it?) "And the answer is: yes, it does. And if you saw it on the map - good job, it is not there by accident." -Pat 2021
+        </i>
+       Fans have developed several theories about the road. Is included even in the earliest map we have.
+       Notice how it starts in Imre and ends near Tinue, maybe going under the Stormwal Mountains. What ancient cities did it connect?
+       What can we learn from its curvature on the maps?
+        <i>
+        ...while the Aturan Empire claims to have built the Great Stone Road, any historian worth his salt knows this is patently untrue. While at the peak of it's power, Atur certainly did much to improve the road, cobbling large sections of it, but old records clearly show <b>the road existed long before Atur was an empire</b>. In fact, the road seems to have existed long before Atur was even a country, or there was even a city of that name. Truthfully, <b>its origins are lost in the dim reaches of pre-history</b>, and therefore speculation on that subject is better left to storytellers than any self-respecting historian.
+        <a href="https://www.patrickrothfuss.com/content/great_stone_road.html"> -Pat official website </a>
+        <i>
+        </p>`,
     'North': `<p>There is no magnetic north in Temerant. The tri-foil compass points to three artificial points that arcanists created in the past, as a form of monopoly.</p>`,
-    'Tahlenwald': `<p> To the east of the mountains <i> "I heard a story once that said the leaders of their tribes aren't warriors, they're <strong> singers</strong>." </i>The Tahl are a nomadic people, in chapter 83 of WMF “the witchwomen of the Tahl” are mentioned and while in Ademre, Kvothe learns that the Tahl may cure many ailments including forms of venereal disease. <br>Possibly about the geography: <i>“I want to hear about the dry lands over the Stormwal,” one of the younger girls complained. “About the sand snakes that come out of the ground like sharks. And the dry men who hide under the dunes and drink your blood instead of water. And—” </i></p>`,
+    'Tahlenwald': `<p> To the east of the mountains <i> "I heard a story once that said the leaders of their tribes aren't warriors, they're <b> singers</b>." </i>The Tahl are a nomadic people, in chapter 83 of WMF “the witchwomen of the Tahl” are mentioned and while in Ademre, Kvothe learns that the Tahl may cure many ailments including forms of venereal disease. <br>Possibly about the geography: <i>“I want to hear about the dry lands over the Stormwal,” one of the younger girls complained. “About the sand snakes that come out of the ground like sharks. And the dry men who hide under the dunes and drink your blood instead of water. And—” </i></p>`,
     'Feant': `<p> An Adem town, north of Haert. <i>Vashet took a trip to Feant and will not be back for at least two days. </i>Vashet is from Feant and says that they grow up speaking Aturan, and are more "cosmopolitan." She implies that there is more than one school in Feant and that one of them was the one she grew up following, the path of joy.</p>`,
     'Haeth': `<p> <i>"Homes were built into the sides of hills, or outward from the leeward walls of sheltering cliffs. Some were dug downward. Others were carved into the stony sides of bluffs. Some you could hardly see unless you were standing next to them."</i> Here is located the Latantha school ("Sword Tree" school, referring to the fighting style inspired by them)<i>“What would you say of such a thing?” she asked, gesturing to the hidden valley. </i> This map changes the spelling from "Haert"</p>`,
     'Northern Enlas': `<p> Maybe named in relation to: <i>"Enlas, who would not carry a sword, or eat the flesh of animals, and who no man had ever known to speak hard words."
