@@ -220,7 +220,18 @@ window.regionInfo = {
             <i> "Ordal, the youngest of them all, who had never seen a thing die"</i>
             one of the eight ruach who followed Tehlu to become Angels.
          </p>`,
-    'Stormwal': `<p>When Kvothe visited the Cthaeh, he was told that he wouldn't have a hope of his search for the Chandrian being taken seriously until he made it to Stormwal. This persuaded Kvothe to go with Tempi back to Ademre. <br> He described the land at the foot of the Stormwal as <i>rocky and jagged, with a narrow road that snaked back and forth to avoid box valleys, bluffs, and jumbles of broken rock.</i> The air in the Stormwal is thin and cool  <br>In NotW they are mentioned, possibly in relation to Tahlenwald (see above, to the east):<i>“I want to hear about the dry lands over the Stormwal,” one of the younger girls complained. “About the sand snakes that come out of the ground like sharks. And the dry men who hide under the dunes and drink your blood instead of water. And—” </i></p>`,
+    'Stormwal': `<p>
+        When Kvothe visited the Cthaeh, he was told that he wouldn't have a hope of his search for the Chandrian being taken seriously until he made it to Stormwal. 
+        This persuaded Kvothe to go with Tempi back to Ademre. 
+        <br> He described the land at the foot of the Stormwal as 
+        <i>rocky and jagged, with a narrow road that snaked back and forth to avoid box valleys, bluffs, and jumbles of broken rock.
+        </i> The air in the Stormwal is thin and cool  
+        <i>
+        (What lies behind the Stormwall Mountains? ) "A whole lot of world, including the Tahlenwald and the Velt."
+        <a href="https://www.reddit.com/r/Fantasy/comments/2orz03/comment/cmqa4ow/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank" rel="noopener">
+        -Reddit discussion</a>
+        </i>
+        </p>`,
     'Hallowfell': `<p>Hallowfell is the town where Abenthy (Kvothe´s first teacher) settles down. Is probably a minor town since is not depicted in this map, but it does appear in other versions in this aproximate location. </p>`,
     'Khershaen': `<p> Changes spelling from old maps and mentions in the books <i>“I’ve actually been to high court in Cershaen. Twice.”</i>
         <i>“His gait was smooth, even for a Khershaen, but a trot is jarring no matter what, and it pulled at the new stitches in my side.”
@@ -273,6 +284,14 @@ window.regionInfo = {
         </p>`,
     'North': `<p>There is no magnetic north in Temerant. The tri-foil compass points to three artificial points that arcanists created in the past, as a form of monopoly.</p>`,
     'Tahlenwald': `<p> To the east of the mountains <i> "I heard a story once that said the leaders of their tribes aren't warriors, they're <b> singers</b>." </i>The Tahl are a nomadic people, in chapter 83 of WMF “the witchwomen of the Tahl” are mentioned and while in Ademre, Kvothe learns that the Tahl may cure many ailments including forms of venereal disease. <br>Possibly about the geography: <i>“I want to hear about the dry lands over the Stormwal,” one of the younger girls complained. “About the sand snakes that come out of the ground like sharks. And the dry men who hide under the dunes and drink your blood instead of water. And—” </i></p>`,
+    'The Velt': `<p> Far away to the east of the Stormwal Mountains 
+    <i>  
+    (What lies behind the Stormwall Mountains? ) "A whole lot of world, including the Tahlenwald and the Velt."
+    </i>
+    Only ever<a href="https://asoiaf.westeros.org/index.php?/topic/75050-the-wise-mans-fear-ix-spoilers-speculation/page/13/" target="_blank" rel="noopener">
+    mentioned here</a> and <a href="https://www.reddit.com/r/KingkillerChronicle/comments/2oysn9/the_velt/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank" rel="noopener">here.</a>
+    The term "Vel<b>d</b>t" refers to a type of open, grassy landscape found in Southern Africa.
+    </p>`, 
     'Feant': `<p> An Adem town, north of Haert. <i>Vashet took a trip to Feant and will not be back for at least two days. </i>Vashet is from Feant and says that they grow up speaking Aturan, and are more "cosmopolitan." She implies that there is more than one school in Feant and that one of them was the one she grew up following, the path of joy.</p>`,
     'Haeth': `<p> <i>"Homes were built into the sides of hills, or outward from the leeward walls of sheltering cliffs. Some were dug downward. Others were carved into the stony sides of bluffs. Some you could hardly see unless you were standing next to them."</i> Here is located the Latantha school ("Sword Tree" school, referring to the fighting style inspired by them)<i>“What would you say of such a thing?” she asked, gesturing to the hidden valley. </i> This map changes the spelling from "Haert"</p>`,
     'Northern Enlas': `<p> Maybe named in relation to: <i>"Enlas, who would not carry a sword, or eat the flesh of animals, and who no man had ever known to speak hard words."
