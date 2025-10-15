@@ -157,8 +157,6 @@ window.regionInfo = {
         <i>
         the Adem take an odd pride in laying down their stones silently. Rather than calling “Tak” verbally, they place the threatening piece so as to make a quiet but audible click on the board
         </i>
-
-
         </p>`,
    'The Barrens': `<p> “The Barrens” name is not meant to describe a desolate place—it  originally referred to shifting baronies (“where the barons are”), but a cartographer’s
         mistake turned it into a misleading name. 
