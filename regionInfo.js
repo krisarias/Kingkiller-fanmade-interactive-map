@@ -160,10 +160,15 @@ window.regionInfo = {
 
 
         </p>`,
-
-    "The Eld": `<p> The forest in WMF with a door to the fae (Felurian chapters). It probably expands more towards Vintas than shown in this map <i>  </i> </p>`,
-    "The University": `<p> <i>Kvothe—Anker’s Inn./ University. (Two miles west of Imre.)/ <b> Belenay-Barren </b>/ Central Commonwealth. [WMF 43 - Denna's letter]<i> </p>`,
-    "Crosson": `<p> Aproximated location, <i> "We decided to trust the map we'd found and cut straight west through the forest, heading toward Crosson. Even if we missed the town, we couldn’t help but hit the road and save ourselves long miles of walking. "</i> <i>"We hoped to make it to Crosson by noon of the next day. But near midmorning we encountered a stretch of dreary, reeking swamp that hadn’t been marked on the map.Thus began a truly miserable day." </i> </p>`,
+   'The Barrens': `<p> “The Barrens” name is not meant to describe a desolate place—it  originally referred to shifting baronies (“where the barons are”), but a cartographer’s
+        mistake turned it into a misleading name. 
+        <i> "I put wrong things in maps because cartographers screw up. I put translation errors in maps because, like. But like no one will ever know. There's  a section in one of the maps. And it's called 'The Barrens'. And it's like, “Well, obviously this a desolate place.” No, it's because many many years ago there were a bunch of baronies that fought. Um. And then a cartographer was like, “Man! This is changing all the time; they’re always fighting. This is just... ‘where the barons are’.” And so now, it's like, “Oh, this idiot misspelled Barrens,” and NOW everyone’s like, “Well, I don’t wanna live in the barrens, and that's the name of the region.” And this is a little joke just for me. -Pat "
+        </i> -Special thanks to reddit user LostInStories222 for this one</p>`,   
+    'The Eld': `<p> The forest in WMF with a door to the fae (Felurian chapters). It probably expands more towards Vintas than shown in this map <i>  </i> </p>`,
+    'The University': `<p> 
+        <i>Kvothe—Anker’s Inn./ University. (Two miles west of Imre.)/ <b> Belenay-Barren </b>/ Central Commonwealth. [WMF 43 - Denna's letter]<i> </p>`,
+    'Crosson': `<p> Aproximated location, 
+        <i> "We decided to trust the map we'd found and cut straight west through the forest, heading toward Crosson. Even if we missed the town, we couldn’t help but hit the road and save ourselves long miles of walking. "</i> <i>"We hoped to make it to Crosson by noon of the next day. But near midmorning we encountered a stretch of dreary, reeking swamp that hadn’t been marked on the map.Thus began a truly miserable day." </i> </p>`,
     'Sanshole': `<p> Theories say this is probably the town that Kvothe's trope was leaving before being attacked, considering distance and location (north of Tarbean)  </p>`,
     'Vesumbi Islands': `<p> In the Aturan Empire map the spelling is "V Sumbi Isles". Vi Sembi raiders are known to attack towns with flint and obsidian arrows. It\'s possible that they\'re from the Vesumbi Islands.</p>`,
     'Centhe': `<p><i> Nearly as bad was the fact that my hard-won gram now lay somewhere deep below the cold, dark waters of the Centhe Sea. </i> </p> <i>“There’s a river south of Vintas that flows the wrong way,” Fenton said. “It’s a saltwater river that runs inland from the Centhe sea.” </i></p>`,
