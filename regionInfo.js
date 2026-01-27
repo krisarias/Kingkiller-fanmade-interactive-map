@@ -214,7 +214,10 @@ window.regionInfo = {
         </p>`,
     'The University': `<p> 
         <i>Kvothe—Anker’s Inn./ University. (Two miles west of Imre.)/ <b> Belenay-Barren </b>/ Central Commonwealth. [WMF 43 - Denna's letter]<i> </p>`,
-    'Crosson': `<p> Aproximated location, 
+    'Imre':`<p> 
+    City in the Commonwealth, close to the University. It is home to a wide variety of artists and wealthy nobility. 
+    <a href="https://kingkiller.fandom.com/wiki/Imre" target="_blank" rel="noopener">Some theories</a> suggest that if Ademre means ‘home of the Adem,’ then Imre could be the ‘home of the Amyre/Amyrre.’    </p>`,
+        'Crosson': `<p> Aproximated location, 
         <i> "We decided to trust the map we'd found and cut straight west through the forest, heading toward Crosson. Even if we missed the town, we couldn’t help but hit the road and save ourselves long miles of walking. "</i> <i>"We hoped to make it to Crosson by noon of the next day. But near midmorning we encountered a stretch of dreary, reeking swamp that hadn’t been marked on the map.Thus began a truly miserable day." </i> </p>`,
     'Sanshole': `<p> Theories say this is probably the town that Kvothe's trope was leaving before being attacked, considering distance and location (north of Tarbean) 
         <a href="https://www.reddit.com/r/KingkillerChronicle/comments/1bhb8ip/where_was_the_troupe_attacked/" target="_blank" rel="noopener">(Link to Theory)</a>
