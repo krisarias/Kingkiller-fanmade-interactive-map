@@ -340,6 +340,15 @@ window.regionInfo = {
      River separating Atur and Ceald, in the Great Aturan Empire map its called "An's Anger"
      </p>`,
 
+     //Update 3 - February 2026
+
+"Refting Strait": `<p>
+    
+     <i>My route was a simple one. I would head downriver to Tarbean, through the Refting Strait,
+      down the coast toward Junpui, then up the Arrand River WMF Ch. 52</i>
+     
+     </p>`,
+
      };
 
 
