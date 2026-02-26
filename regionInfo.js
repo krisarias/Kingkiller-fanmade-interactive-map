@@ -343,10 +343,9 @@ window.regionInfo = {
      //Update 3 - February 2026
 
 "Refting Strait": `<p>
-    
+    In the Aturan Empire map, it is called "Imet´s strait". 
      <i>My route was a simple one. I would head downriver to Tarbean, through the Refting Strait,
       down the coast toward Junpui, then up the Arrand River WMF Ch. 52</i>
-     
      </p>`,
 
      };
