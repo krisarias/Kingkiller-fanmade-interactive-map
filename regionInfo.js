@@ -257,7 +257,7 @@ window.regionInfo = {
         <i> Throughout the city, the common gambling penalty is “Ten for the Board,” meaning that the winner collects only 10 coins for the board (page 34) </i>
         <i> A traveler from Middletown visiting the house of a man from Downings would play by the Downings rules. </i>
         </p>`,
-        //Before
+    //Before
     "Andallen": `<p> During the Great Arturan Empire it was named "Arrowdales". </p>`,
     "The Six Sisters": `<p> During the Great Arturan Empire they were named "The Seven Saints".
     <i>
@@ -347,6 +347,16 @@ window.regionInfo = {
      <i>My route was a simple one. I would head downriver to Tarbean, through the Refting Strait,
       down the coast toward Junpui, then up the Arrand River WMF Ch. 52</i>
      </p>`,
+
+    //Update 4 - March 2026
+"Vishanti": `<p>
+    Mentioned in Laniel Young Again Prologue.
+<i>“Nothing like Kaepcaen to the north or even Vashanti.” (transcription by r/AhsAUoy)</i>
+    Ademre has a similar word "visantha" (likely) meaning men or bandits. 
+    <i>
+    "—We are trying to find men.— Nod. —Yes. Hunt men.— He stressed the word. —Hunt visantha." WMF Ch.78—</i>
+ </p>`,
+
 
      };
 
