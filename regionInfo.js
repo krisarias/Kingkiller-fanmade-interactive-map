@@ -160,18 +160,20 @@ window.regionInfo = {
         </i>
         </p>`,
 
-    "The Small Kingdoms": 
-        "<p> <i>“Only priests and fools” expect the roads in the Small Kingdoms to be safe.\"</i>It is likely many different kingdoms, since the boy with a gold screw in his belly button visits \"each of the small kingdoms\". Vashet spent four years as a captain and bodyguard to a \"poet king\" in the Small Kingdoms. Caudicus claimed that a large portion of the land which is now the Small Kingdoms was once ruled by the Lackless family. (Possibly north of Tinue) </p>",    // Major Cities
-    'The Free City of Tinue': 
+    "The Small Kingdoms":
+        "<p> <i>“Only priests and fools” expect the roads in the Small Kingdoms to be safe.\"</i>It is likely many different kingdoms, since the boy with a gold screw in his belly button visits \"each of the small kingdoms\". Vashet spent four years as a captain and bodyguard to a \"poet king\" in the Small Kingdoms. Caudicus claimed that a large portion of the land which is now the Small Kingdoms was once ruled by the Lackless family. (Possibly north of Tinue) </p>",
+
+    // Major Cities
+    'The Free City of Tinue':
         `<p> It was once part of an earldom controlled by the <b>Lackless family</b>, until a rebellion took control of the city away from them. <br> It is a common Aturan expression to ask "how is the road to Tinuë?"
         , and it\'s believed that all the roads in the Four Corners will eventually pass through the city. 
         <br> It might be <b>Tinusa</b>, the city that survived the Creation War. </p>`,
-    'Atur': 
+    'Atur':
         `<p> Atur is marked as a notable city, but not a government seat. 
         <i>in Felior´s Fall there are a full thirteen (Chandrian): one for each pontifet in Atur, and an extra for the capitol.</i> About the Lackless family> <i>In Atur they became the Lack-key family. They were numerous, but fell on hard times. That’s where the word ‘lackey’ comes from, you know. All those paupered nobility forced to scrape and bow to make ends meet. </i></p>`,
-    'Severen': 
+    'Severen':
         `<p>or Sevren, ruled by the Maer Alveron, is divided into two chief sections: Severen-High and Severen-Low </p>`,
-    'Ralien': 
+    'Ralien':
         `<p> <i>(Tell them )“I was a city-licensed escort from Ralien. A grateful Cealdish merchant gave me money to start an inn. His name is Deolan. We were traveling from Purvis.”</i> Ralien is the capital city of Ceald. Wilem is from Ralien, where his family are wool merchants. <br> Marten mentions that, three weeks before they had begun working with Kvothe, they had finished a caravan job from Ralien. </p>`,
     'Anilin': `<p> 
         (<a href="https://www.reddit.com/r/KingkillerChronicle/comments/z1q9uz/anilin_part_1_what_do_they_do_in_anilin/">credit</a>) 
@@ -179,12 +181,12 @@ window.regionInfo = {
         <i>"Eventually we came to another stream crossing the road. Not much more than a foot deep at the most. The water had a sharp, foul smell that let me know there was a tannery upstream, or a refinery (...) Solvents and acids. If not a refinery, then at least a mine.
         "</i> Other mentions:<br>
         <i>“The fire was blue last night?” She nodded. “Like a coal-gas flame. Like the lamps they have in Anil<strong>e</strong>n.”</i> <i>“What happened in Anilin, anyway?” A leaf floated down and landed in her hair. She brushed it away absentmindedly. “Nothing pleasant,” she said, avoiding my eyes. “But nothing unexpected either.”</i><i> “Like hell. Check it now, while he’s close. We’ve lost him twice already. I’m not having another cock-up like in Anilin.”</i>
-    </p>`,
+        </p>`,
     'Dalonir': `<p> At the beginning of ch.39 of The WMF Wilem says that Dalonir is Simmon´s father´s dutchy in the north of Aturan ... but here Dalonir appears to be Ceald. 
             When asked Pat was unsure of the sitation. So where is the mistake? The book or the map? 
             <br> In the Great Aturan Empire map of the 10 edition Dalonir is, in fact, part of the Aturan Empire; but this is long before Kvothe´s time.
             <br>They are also famous for their hard white cheese -) (NotW 87)
-    </p>`,
+        </p>`,
     'Junpui': `<p> <i> Over the course of my trip I was robbed, drowned, and left penniles on the streets of Junpui </i> Books in the archives record a story of an Amyr putting down a peasant uprising in Junpui. <br>In Junpui the punishment for forgery is being thrown into a fire.</p>`,
     "Ademre": `<p> 
         <b>Language:</b>Ademic and Adem sign language <br> 
@@ -214,17 +216,19 @@ window.regionInfo = {
         </p>`,
     'The University': `<p> 
         <i>Kvothe—Anker’s Inn./ University. (Two miles west of Imre.)/ <b> Belenay-Barren </b>/ Central Commonwealth. [WMF 43 - Denna's letter]<i> </p>`,
-    'Imre':`<p> 
-    City in the Commonwealth, close to the University. It is home to a wide variety of artists and wealthy nobility. 
-    <a href="https://kingkiller.fandom.com/wiki/Imre" target="_blank" rel="noopener">Some theories</a> suggest that if Ademre means ‘home of the Adem,’ then Imre could be the ‘home of the Amyre/Amyrre.’    </p>`,
-        'Crosson': `<p> Aproximated location, 
+    'Imre': `<p> 
+         City in the Commonwealth, close to the University. It is home to a wide variety of artists and wealthy nobility. 
+         <a href="https://kingkiller.fandom.com/wiki/Imre" target="_blank" rel="noopener">Some theories</a> suggest that if Ademre means ‘home of the Adem,’ then Imre could be the ‘home of the Amyre/Amyrre.’    </p>`,
+    'Crosson': `<p> Aproximated location, 
         <i> "We decided to trust the map we'd found and cut straight west through the forest, heading toward Crosson. Even if we missed the town, we couldn’t help but hit the road and save ourselves long miles of walking. "</i> <i>"We hoped to make it to Crosson by noon of the next day. But near midmorning we encountered a stretch of dreary, reeking swamp that hadn’t been marked on the map.Thus began a truly miserable day." </i> </p>`,
     'Sanshole': `<p> Theories say this is probably the town that Kvothe's trope was leaving before being attacked, considering distance and location (north of Tarbean) 
         <a href="https://www.reddit.com/r/KingkillerChronicle/comments/1bhb8ip/where_was_the_troupe_attacked/" target="_blank" rel="noopener">(Link to Theory)</a>
-    </p>`,
+         </p>`,
     
-    'Vesumbi Islands': `<p> In the Aturan Empire map the spelling is "V Sumbi Isles". Vi Sembi raiders are known to attack towns with flint and obsidian arrows. It\'s possible that they\'re from the Vesumbi Islands.</p>`,
-    'Centhe': `<p><i> Nearly as bad was the fact that my hard-won gram now lay somewhere deep below the cold, dark waters of the Centhe Sea. </i> </p> <i>“There’s a river south of Vintas that flows the wrong way,” Fenton said. “It’s a saltwater river that runs inland from the Centhe sea.” </i></p>`,
+    'Vesumbi Islands':
+         `<p> In the Aturan Empire map the spelling is "V Sumbi Isles". Vi Sembi raiders are known to attack towns with flint and obsidian arrows. It\'s possible that they\'re from the Vesumbi Islands.</p>`,
+    'Centhe': `
+        <p><i> Nearly as bad was the fact that my hard-won gram now lay somewhere deep below the cold, dark waters of the Centhe Sea. </i> </p> <i>“There’s a river south of Vintas that flows the wrong way,” Fenton said. “It’s a saltwater river that runs inland from the Centhe sea.” </i></p>`,
     'Omerdal': `<p>New to this map. 
         <br>Might be the city mentioned in the Tak Companion Book:
             <i> (About a Tak set with rounded top) The owner was a student who hailed from a coastal city to the south of Atur. He claimed it was the preferred shape where he came from, and called it a “Coluba” set (p26) </i>
@@ -257,7 +261,7 @@ window.regionInfo = {
         <i> Throughout the city, the common gambling penalty is “Ten for the Board,” meaning that the winner collects only 10 coins for the board (page 34) </i>
         <i> A traveler from Middletown visiting the house of a man from Downings would play by the Downings rules. </i>
         </p>`,
-    //Before
+    // Before
     "Andallen": `<p> During the Great Arturan Empire it was named "Arrowdales". </p>`,
     "The Six Sisters": `<p> During the Great Arturan Empire they were named "The Seven Saints".
     <i>
@@ -270,7 +274,7 @@ window.regionInfo = {
     'Goverment Seat': `<p> This are the major cities: <b>Tarbean, Renere, Ralien, and Khershaen,</b> this are THE 4 corners. They are usually associated with: <br> •Commonwealth: understanding, art. Imre and the University.<br>•Ceald: wealth, trade, industry; famous for its financial power. <br>•Modeg: openness, wisdom, expressiveness; its king is described as wise, and the kingdom seems to value individuality.(and are seen as promiscuous) <br>•Vintas: tradition, nobility, social rigidity; possibly the cornerstone of the conservative structure.
     <br>The Aturan Empire is in the center of the 4 corners and is associated with the Tehlu Church</p>`,
     'Farrowton Sisters': `<p>Cartographers who made the map in universe. According to Pat the person who made the 10 anniversary map: <i>“ hated the Atur Empire, which is why there are no details about the Atur side, and ignored Yll because who cared about the shepherds?" </i> The Farrowtown Sisters might not be contemporary to Kvothe so the map might have changed since</p>`,
-        'Thinker': `<p> <i>“Tinkers are a sign of civilization.  Where the roads are safe, Tinkers travel freely, bringing welcome news and many necessary goods that are hard for to come by in small towns.” </i>
+    'Thinker': `<p> <i>“Tinkers are a sign of civilization.  Where the roads are safe, Tinkers travel freely, bringing welcome news and many necessary goods that are hard for to come by in small towns.” </i>
          All officials maps at the point of writing have included a Tinker on a corner. 
          <br>By the Pairs cards deck art we know they even make their way into the Fae 
         <a href="https://kingkiller.fandom.com/wiki/Pairs?file=Pairs_Faen_Mortal_Guest_6.jpg"> see card</a>
@@ -311,54 +315,54 @@ window.regionInfo = {
     'Northern Enlas': `<p> Maybe named in relation to: <i>"Enlas, who would not carry a sword, or eat the flesh of animals, and who no man had ever known to speak hard words."
     ―Skarpi"</i> one of the eight ruach who followed Tehlu to become Angels.</p>`,
 
-    //Theory
+    // Theory
     "Ven Veden": `<p> New to this map, might be a modded "Venumet" from the Tak Companion Book:
         <i>
         The oldest known game that closely resembles modern Tak comes from Venumet, roughly 700 years ago.
         </i>
     </p>`,
 
-    //Update 2 - January 20226
+    // Update 2 - January 20226
     "Broken Sea": `<p> Only in "the Great Aturan Empire" map, the actual name is unknown. 
         <i> (Jax) lived in an old house at the end of a broken road. </i>
         <i>One day, a tinker came down the road to Jax’s house.  This was something of a surprise, because the road was broken, so nobody ever used it.</i>
         Noticed by https://drewverlee.github.io/pages-output/tinker
      </p>`,
 
-     "Trebon": `<p> 
+    "Trebon": `<p> 
      Is a small town located roughly 60 miles (by road) north of Imre and the University as told by the Tinker that Kvothe meets on his way to the Mauthen Farm to research about the blue fires at the wedding massacre. (NotW, Ch. 71)
      Dena and Kvothe said they were "at the end of the civilizase world" and the town treats Kvothe well but wants him to leave since he messes with "dark forces."
      Acessible via river and a minor road.
      </p>`,
 
-     "Antusa Plains": `<p>
+    "Antusa Plains": `<p>
      Name similarity to "Antus", one of the eight cities of Ergen.
      </p>`,
 
 
- "Endal Brake": `<p>
+    "Endal Brake": `<p>
      River separating Atur and Ceald, in the Great Aturan Empire map its called "An's Anger"
      </p>`,
 
-     //Update 3 - February 2026
+    // Update 3 - February 2026
 
-"Refting Strait": `<p>
-    In the Aturan Empire map, it is called "Imet´s strait". 
-     <i>My route was a simple one. I would head downriver to Tarbean, through the Refting Strait,
-      down the coast toward Junpui, then up the Arrand River WMF Ch. 52</i>
+    "Refting Strait": `<p>
+        In the Aturan Empire map, it is called "Imet´s strait". 
+         <i>My route was a simple one. I would head downriver to Tarbean, through the Refting Strait,
+          down the coast toward Junpui, then up the Arrand River WMF Ch. 52</i>
+         </p>`,
+
+    // Update 4 - March 2026
+    "Vishanti": `<p>
+        Mentioned in Laniel Young Again Prologue.
+    <i>“Nothing like Kaepcaen to the north or even Vashanti.” (transcription by r/AhsAUoy)</i>
+        Ademre has a similar word "visantha" (likely) meaning men or bandits. 
+        <i>
+        "—We are trying to find men.— Nod. —Yes. Hunt men.— He stressed the word. —Hunt visantha." WMF Ch.78—</i>
      </p>`,
 
-    //Update 4 - March 2026
-"Vishanti": `<p>
-    Mentioned in Laniel Young Again Prologue.
-<i>“Nothing like Kaepcaen to the north or even Vashanti.” (transcription by r/AhsAUoy)</i>
-    Ademre has a similar word "visantha" (likely) meaning men or bandits. 
-    <i>
-    "—We are trying to find men.— Nod. —Yes. Hunt men.— He stressed the word. —Hunt visantha." WMF Ch.78—</i>
- </p>`,
 
-
-     };
+};
 
 
 
